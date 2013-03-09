@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MagicTower - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lhj\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MagicTower.pdb" /debug /machine:I386 /out:"Debug/MagicTower.exe" /pdbtype:sept 
+".\Debug\BackGround.obj"
+".\Debug\Fight.obj"
+".\Debug\Game.obj"
+".\Debug\Info.obj"
+".\Debug\MagicTower.obj"
+".\Debug\MagicTowerDlg.obj"
+".\Debug\Npc.obj"
+".\Debug\Role.obj"
+".\Debug\Scene.obj"
+".\Debug\Script.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Story.obj"
+".\Debug\Talk.obj"
+".\Debug\Tile.obj"
+".\Debug\MagicTower.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\lhj\LOCALS~1\Temp\RSP9.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : LNK6004: Debug/MagicTower.exe not found or not built by the last incremental link; performing full link
+
+
+
+<h3>Results</h3>
+MagicTower.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MapEdit - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MapEdit.res" /d "_DEBUG" /d "_AFXDLL" "D:\Program Files\Microsoft Visual Studio\MyProjects\1012_MagicTower\MapEdit\MapEdit.rc"" 
+Creating temporary file "C:\DOCUME~1\lhj\LOCALS~1\Temp\RSPDA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapEdit.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\1012_MagicTower\MapEdit\InfoEdit.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\1012_MagicTower\MapEdit\MapEdit.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\1012_MagicTower\MapEdit\MapEditDlg.cpp"
+"D:\Program Files\Microsoft Visual Studio\MyProjects\1012_MagicTower\MapEdit\SelButton.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lhj\LOCALS~1\Temp\RSPDA.tmp" 
+Creating temporary file "C:\DOCUME~1\lhj\LOCALS~1\Temp\RSPDB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MapEdit.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\1012_MagicTower\MapEdit\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lhj\LOCALS~1\Temp\RSPDB.tmp" 
+Creating temporary file "C:\DOCUME~1\lhj\LOCALS~1\Temp\RSPDC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MapEdit.pdb" /debug /machine:I386 /out:"Debug/MapEdit.exe" /pdbtype:sept 
+".\Debug\InfoEdit.obj"
+".\Debug\MapEdit.obj"
+".\Debug\MapEditDlg.obj"
+".\Debug\SelButton.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MapEdit.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\lhj\LOCALS~1\Temp\RSPDC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+InfoEdit.cpp
+MapEdit.cpp
+MapEditDlg.cpp
+SelButton.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MapEdit.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
